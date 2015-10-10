@@ -2,7 +2,7 @@
 
 
 body {
-	font-family: 'Pacifico', sans-serif;
+	font-family: 'Indie Flower', sans-serif;
 	color: #e5e5e5;
 	font-size: 12px;
 	background:#bfbfbf;
@@ -12,7 +12,7 @@ body {
 
 
 h1, h2 {
-	font-family: 'Pacifico', sans-serif;
+	font-family: 'Indie Flower', sans-serif;
 	font-weight: 300;
 	margin:0 0 15px 0;
 }
@@ -68,6 +68,7 @@ a {
 .section img {
 	 width: auto;
 	 height: 50%;
+	 border: 6px solid #66DD11;
 }
 
 .inner {
@@ -92,12 +93,12 @@ a {
 	height: 50px;
 	z-index: 1000;
 	width: 100%;
-	background: #0977bc;
+	background: #66DD11;
 }
 
 .subMenu .inner {
 	padding:0;
-	font-weight: 400;
+	font-weight: bold;
 	margin: 0 auto;
 }
 
@@ -116,7 +117,7 @@ a {
 	color: #fff;
 }
 .subMenu a:hover {
-	background: #1783c7;
+	background: #22BB00;
 }
 
 .active {
@@ -134,27 +135,29 @@ a {
 /* SECTIONS */
 .sTop {
 	min-height: 130px;
-	background:#fff;
-	color:#3d3d3d;
+	background:#FFFFFF;
+	color:#000000;
 	padding: 50px 0;
-	height: 300px;
+	height: 150px;
 
 }
 
 .s1 {
-	background:#184764;
-	color:#fff;
+	background:#BBEE55;
+	color:#000000;
 
 }
 
 
 .s2 {
-	background: #313131;
+	background:#444444;
+	color: #000000;
 }
 .s2 a {
-	color: #fff;
+	color: #000000;
 }
 
 .s3 {
-	background: #1b83b3;
+	background: #BBDD55;
+	color: #000000;
 }
